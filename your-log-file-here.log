@@ -1,0 +1,7 @@
+[2020-03-13 16:14:02.062] [INFO] API - RESPONSE, getRevisionsCount, {"code":0,"message":"ok","data":{"revisions":0}}
+[2020-03-13 16:14:02.089] [INFO] API - REQUEST, v1.2.11:listAllGroups, {"apikey":"ca5ca919b6bf1e3cc441ff261a766cc1975f64dd0d77a934f72e224ef89ef2f9"}
+[2020-03-13 16:14:02.089] [INFO] API - RESPONSE, listAllGroups, {"code":0,"message":"ok","data":{"groupIDs":[]}}
+[2020-03-13 16:14:02.091] [INFO] API - REQUEST, v1.2.11:listAllPads, {"apikey":"ca5ca919b6bf1e3cc441ff261a766cc1975f64dd0d77a934f72e224ef89ef2f9"}
+[2020-03-13 16:14:02.092] [INFO] API - RESPONSE, listAllPads, {"code":0,"message":"ok","data":{"padIDs":["essai"]}}
+[2020-03-13 16:14:02.093] [INFO] API - REQUEST, v1.2.11:getText, {"padID":"essai","apikey":"ca5ca919b6bf1e3cc441ff261a766cc1975f64dd0d77a934f72e224ef89ef2f9"}
+[2020-03-13 16:14:02.095] [INFO] API - RESPONSE, getText, {"code":0,"message":"ok","data":{"text":"Welcome to Etherpad!\n\nThis pad text is synchronized as you type, so that everyone viewing this page sees the same text. This allows you to collaborate seamlessly on documents!\n\nGet involved with Etherpad at http://etherpad.org\n\nWarning: DirtyDB is used. This is fine for testing but not recommended for production. -- To suppress these warning messages change suppressErrorsInPadText to true in your settings.json\n\n"}}
